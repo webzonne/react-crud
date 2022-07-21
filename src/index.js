@@ -14,7 +14,6 @@ app.use(express.json());
 app.use(morgan('dev'));
 
 //STATIC FILES
-console.log(__dirname)
 app.use(express.static(path.join(__dirname, 'public')))
 
 //ROUTES
